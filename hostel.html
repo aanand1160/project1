@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <link rel="icon" type="image/png" href="Images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <style> 
+            .hostel{
+                background-image: url(images/hostel.jpg);
+                width: 100%;
+                height: 700px;
+                background-size: cover;
+                padding: 0;
+            }
+            h1 {
+            	margin-top: 0px;
+                font-size: 50px;
+                text-align: center;
+                color: white;
+                background-color: #313b3d;
+            }
+            .table{
+            	margin-left: 380px;
+            	margin-top: 5px;
+            	width: 620px;
+            	font-family: 'Noto', sans-serif;
+            	background-color:rgba(49, 59, 61, 0.5);
+            	text-align:left;
+            	font-size:27px;
+            	color: white;
+            	cursor: pointer;
+            }
+        </style>
+        <title>Hostel | Aaryan University</title>
+    </head>
+    <body>
+        <div class="hostel">
+	    <h1 style="color: white;">HOUSING SELECTION</h1>
+	    <div style="font-family: 'Noto', sans-serif; color: #181502; font-size: 28px;margin-left: 400px; margin-top: 120px;"><h2>HOSTEL &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp APARTMENT</h2></div>
+	    <div class="table">
+        <table  cellspacing="8" cellpadding="8">
+            <tr>
+            <td onclick="a()" id="a">Single Seater(A/C)</td>
+            <td onclick="b()" id="b">Single Seater(A/C)</td></tr>
+            <tr>
+            <td onclick="c()" id="c">Double Seater(A/C)</td>
+            <td onclick="d()" id="d">Double Seater(A/C)</td></tr>
+            <tr>
+            <td onclick="e()" id="e">Four Seater(A/C)</td>
+            <td onclick="f()" id="f">Three Seater(A/C)</td></tr>
+            <tr>
+            <td onclick="g()" id="g">Single Seater(COOLER)</td>
+            <td onclick="h()" id="h">Four Seater(A/C)</td></tr>
+            <tr>
+            <td onclick="i()" id="i">Double Seater(COOLER)</td>
+            <td onclick="j()" id="j">Five Seater(A/C)</td></tr>
+            <tr>
+            <td onclick="k()" id="k">Four Seater(COOLER)</td>
+            <td onclick="l()" id="l">Six Seater(A/C)</td>
+            </tr>
+        </table></div>
+            <div  style="margin-left: 950px; margin-top: 5px;"><input margin-left:"600" type="button" value="Apply" onclick=" confirm()"></div>
+        <script>
+            function a(){document.getElementById("a").style.color="red";} 
+            function b(){document.getElementById("b").style.color="red";}
+            function c(){document.getElementById("c").style.color="red";}  
+            function d(){document.getElementById("d").style.color="red";}  
+            function e(){document.getElementById("e").style.color="red";}  
+            function f(){document.getElementById("f").style.color="red";}  
+            function g(){document.getElementById("g").style.color="red";}
+            function h(){document.getElementById("h").style.color="red";}
+            function i(){document.getElementById("i").style.color="red";}
+            function j(){document.getElementById("j").style.color="red";}
+            function k(){document.getElementById("k").style.color="red";}
+            function l(){document.getElementById("l").style.color="red";}
+            function  confirm()
+            {
+            alert("Your hostel has booked succesfully.  Please pay your fee.");
+            window.open("index.html"); 
+            }
+        </script></div>
+    </body>
+</html>

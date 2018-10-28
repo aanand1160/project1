@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+
+body{
+	margin : 0;
+}
+
+/*---------header--------*/
+
+header{
+	background : #313b3d;
+	color: white;
+	margin: auto;
+	height: 80px;
+	padding: 8px 0px 0px 60px;
+}
+header h1{
+	cursor: pointer;
+	font-size: 35px;
+	float: left;
+	margin-top: 15PX;
+	margin-right: 340px; 
+}
+header nav ul{
+	display: inline;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px; 
+	float: left;
+}
+header nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	margin-right: 55px;
+}
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+	margin-top: 30px;
+}
+header i{
+	margin-top: -8px; 
+	margin-bottom: -14px;
+	margin-left: -200px;
+	cursor: pointer;
+}
+#head{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	margin-left: -5px;
+}
+.h1{
+	margin-left: 50px;
+}
+.image{
+	display: inline-block;
+	width : 5px;
+	height : 5px;
+    padding : 10px;
+	float: left;
+	margin-right: 100px;
+}
+.homea{
+	color: #48575a;
+}
+.homeb:hover{
+	color: #48575a;
+}
+.dropdown {
+      position: relative;
+      display: inline-block;
+}
+.dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #313b3d;
+      font-size: 15px;
+      width: 80px;
+      padding: 15px 8px;
+	  color : white;
+}
+.dropdown:hover .dropdown-content{
+     display: block;
+}
+
+/*-------footer-------*/
+
+footer{
+	background : #313b3d;
+	color: white;
+	margin: auto;
+	height: 208px;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+#foot{
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	float: left;
+	height: auto;
+	padding: 15px 0px 0px 0px;
+}
+#community
+{
+	margin-left: 480px;
+	margin-top: -180px;
+}
+#useful
+{
+	margin-left: 750px;
+	margin-top: -115px;
+}
+#social
+{
+	margin-left: 1000px;
+	margin-top: -115px;
+}
+#social a
+{
+	font-family: "arial";
+	color:white;
+	font-size : 15px;
+}
+.divider{
+	margin-top: 2px;
+	background: linear-gradient(to bottom right, yellow, red);
+	height: 10px;
+}
+.box{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	margin-left: 105px;
+	margin-top: 25px;
+}
+.box h6{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin: 0px;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+.box p{
+	margin-top: 5px;
+	width: 350px;
+	padding: 0px;
+	font-family: "arial";
+	font-size: 16px;
+}
+.box ul{
+	margin: 0px;
+	padding: 0px;
+}
+.box ul li{
+	list-style-type: none;
+	padding-top: 2px;
+}
+.box ul li a{
+	font-family: "arial";
+    font-size: 16px;
+    color: white;
+}
+.create{
+      background: linear-gradient(to bottom right, red, yellow);
+      color: white;
+      font-size: 15px;
+      height: 22px;
+}

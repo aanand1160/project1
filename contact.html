@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Contact | Aaryan University</title>
+     <link rel="icon" type="image/png" href="Images/logo.png">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+        .we{
+          background-color: green;
+          margin-top: 0px;
+          text-align: center;
+          font-family: 'Berkshire Swash', cursive;
+          font-size: 30px;
+          margin-bottom: 0px;
+        }
+        .address{
+          width: 350px;
+          text-align: left;
+          color: #181502;
+          margin-left: 900px;
+          font-family: 'Oswald', sans-serif;
+          font-size: 20px;
+          margin-top: -200px;
+        }
+        #box{
+          margin-left: 100px;
+          font-size: 40px;
+        }
+    </style>
+   </head>
+   <body>
+      <header>
+        <h1 class="h1">AARYAN UNIVERSITY</h1>
+        <i class="image"><img src="logo.png" title="Aaryan University" alt="logo" height="70px" width="77px"/></i>
+          <nav>
+              <ul id="head">
+                 <li><a class="homeb" href="index.html">HOME</a></li>
+                 <li><a class="homeb" href="admission.html">ADMISSION</a></li>
+                 <li><div class="dropdown">
+                      <span class="homeb" style="cursor: pointer;">ACEDEMICS</span>
+                      <div class="dropdown-content">
+                      <p><a href = "course.html">COURSES</a></p>
+                      <p><a href = "hostel.html">HOSTELS</a></p>
+                      <p><a href = "placement.html">PLACEMENT</a></p>
+                  </div></li>
+                 <li><a class="homea" href="contact.html">CONTACT</a></li>
+              </ul>
+            </nav>
+          </header>
+          <img src="Images/image4.jpg" height="400px" width="100%" style="padding: 0; margin: 0;">
+          <h2 class="we">WE ARE HERE</h2>
+          <div style="background: green; height: 220px;">
+            <form id="box">
+                <div class="send"><input type="text" placeholder="Your name">
+                <input type="email" placeholder="Email address">        
+                <input type="text" placeholder="Subject"></div>
+                <textarea cols="74" rows="10" placeholder="What would you like to tell us"></textarea>
+                <div  style= "margin-left: 560px; margin-top: -56px;"><button><input type="submit" value="Submit" onclick="confirm()"></button></div>
+              </form>
+            <div class="address">
+             <h3>Address :</h3>
+               <p style="margin-top: -18px;">Aaryan University, Noida - Delhi G.T. Road, Noida, UP (India) - 201301</br>Phone: +91-1824-640025</br>Email:contactinfo@aaryanuniversity.co.in</p>
+             </div></div>
+      <footer>
+           <div class="divider">
+           <div class="box">
+            <h6>ABOUT US</h6>
+               <p>Aaryan University is a private university which gives higher education over the world. It was established in the year of 1998 as Aaryan Institute of Technology. Over a period of time, the university has carved a niche for itself, both nationally and internationally, for excellence Education.</p>
+            <div id="community"> <h6 >COMMUNITY</h6>
+               <ul>
+                 <li><a href="#">Students</a></li>
+                 <li><a href="#">Teachers</a></li>
+                 <li><a href="#">Chancellor</a></li>
+                 <li><a href="#">Voice Chancellor</a></li>
+               </ul></div>
+            <div id="useful"><h6>USEFUL LINKS</h6>
+               <ul>
+                 <li><a href="#">Result</a></li>
+                 <li><a href="#">Library</a></li>
+                 <li><a href="#">Placement</a></li>
+                 <li><a href="#">Photo Gallery</a></li>
+               </ul></div>
+            <div id="social"><h6>SOCIAL MEDIA</h6>
+              <ul style="list-style-type:none;">
+               <li><a href="#"><i class="fa fa-twitter"> Twitter</i></a></li>
+               <li><a href="#"><i class="fa fa-youtube"> Youtube</i></a></li>
+                 <li><a href="#"><i class="fa fa-linkedin"> Linkedin</i></a></li>
+                 <li><a href="#"><i class="fa fa-google-plus"> Google+</i></a></li>
+                 <li><a href="#"><i class="fa fa-facebook"> Facebook</i></a></li>
+              </ul></div>
+           </div></div>
+      </footer>
+        <script>
+             function  confirm()
+            {
+             alert("Submitted sucessfully.");
+             window.open("index.html"); 
+            }
+        </script>
+         <div class="create">
+        <div style="margin-left: 105px;">Copyright © 2018 Aaryan University. All Rights Reserved.</div>
+      <div style="margin-left: 900px; margin-top: -15px;">Designed and Developed by Web Team Aaryan University</div></div>
+   </body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Welcome | Aaryan University</title>
+    <link rel="icon" type="image/png" href="Images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .aimage3{
+        background-image: url(images/image3.jpg);
+        width: 100%;
+        height: 550px;
+        background-size: cover;
+        padding: 0;
+        }
+      .form{
+        font-family: 'Noto', sans-serif; 
+        position: absolute;
+        background-color: rgba(49, 59, 61, 0.6);
+        font-size: 18px;
+        color: white;
+        top: 27%;
+        left: 35%;
+       }
+    </style>
+   </head>
+   <body>
+      <header>
+        <h1 class="h1">AARYAN UNIVERSITY</h1>
+        <i class="image"><img src="logo.png" title="Aaryan University" alt="logo" height="70px" width="77px"/></i>
+          <nav>
+              <ul id="head">
+                <li><a class="homeb" href="index.html">HOME</a></li>
+                <li><a class="homea" href="admission.html">ADMISSION</a></li>
+                <li><div class="dropdown">
+                    <span class="homeb" style="cursor: pointer;">ACEDEMICS</span>
+                    <div class="dropdown-content">
+                    <p><a href = "course.html">COURSES</a></p>
+                    <p><a href = "hostel.html">HOSTELS</a></p>
+                    <p><a href = "placement.html">PLACEMENT</a></p>
+                    </div></li>
+                <li><a class="homeb" href="contact.html">CONTACT</a></li>
+              </ul>
+      </header>
+      <body>
+        <div class="aimage3">
+            <form class="form" action="#" name="StudentRegistration" onsubmit="return(validate());">
+                <table cellspacing="5">
+                    <tr>
+                        <td colspan=2>
+                            <center><font size=4><b>Registration Form</b></font></center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Name : </td>
+                        <td><input type="text" placeholder="Name" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Father Name : </td>
+                        <td><input type="text" placeholder="Father Name" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Mother Name : </td>
+                        <td><input type="text" placeholder="Mother Name" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Address : </td>
+                        <td><input type="text" placeholder="Address" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Sex : </td>
+                        <td><input type="radio" name="sex" value="male" size="10">Male
+                        <input type="radio" name="sex" value="Female" size="10">Female</td>
+                    </tr>
+                    <tr>
+                        <td>Course : </td>
+                        <td><select name="Course">
+                            <option value="-1" selected>select..</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="M.Tech">M.Tech</option>
+                            <option value="BBA">BBA</option>
+                            <option value="MBA">MBA</option>
+                            <option value="LLB">LLB</option>
+                            <option value="LLM">LLM</option>
+                            <option value="B.A">B.A</option>
+                            <option value="M.A">M.A</option>
+                            <option value="B.Sc">B.Sc</option>
+                            <option value="M.Sc">M.Sc</option>
+                            <option value="B.Com">B.Com</option>
+                            <option value="M.Com">M.Com</option></select></td>
+                    </tr>
+                    <tr>
+                        <td>State : </td>
+                        <td><select Name="State">
+                            <option value="-1" selected>select..</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Utter Pradesh">Utter Pradesh</option></select></td>
+                    </tr>
+                    <tr>
+                        <td>Pin Code : </td>
+                        <td><input type="text" placeholder="Pin Code" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Email Id : </td>
+                        <td><input type="text" placeholder="Email" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>DOB : </td>
+                        <td><input type="text" placeholder="DD/MM/YYYY" size="30"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile No. : </td>
+                        <td><input type="text" placeholder="Mobile no." size="30"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="reset"></td>
+                        <td colspan="2"><input type="submit" value="Submit"  onclick="confirm()"></img></td> 
+                    </tr>
+                </table>
+            </form></div>
+            <script>
+             function  confirm()
+            {
+             alert("You have registerd succesfully. Please pay your fee.");
+             window.open("index.html"); 
+            }
+            </script>
+        <footer>
+           <div class="divider">
+           <div class="box">
+               <h6>ABOUT US</h6>
+               <p>Aaryan University is a private university which gives higher education over the world. It was established in the year of 1998 as Aaryan Institute of Technology. Over a period of time, the university has carved a niche for itself, both nationally and internationally, for excellence Education.</p>
+            <div id="community"> <h6 >COMMUNITY</h6>
+               <ul>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Teachers</a></li>
+                <li><a href="#">Chancellor</a></li>
+                <li><a href="#">Voice Chancellor</a></li>
+               </ul></div>
+            <div id="useful"><h6>USEFUL LINKS</h6>
+               <ul>
+                <li><a href="#">Result</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Placement</a></li>
+                <li><a href="#">Photo Gallery</a></li>
+               </ul></div>
+            <div id="social"><h6>SOCIAL MEDIA</h6>
+              <ul style="list-style-type:none;">
+                <li><a href="#"><i class="fa fa-twitter"> Twitter</i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"> Youtube</i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"> Linkedin</i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"> Google+</i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"> Facebook</i></a></li>
+              </ul></div>
+          </div></div>
+      </footer>
+       <div class="create">
+        <div style="margin-left: 105px;">Copyright © 2018 Aaryan University. All Rights Reserved.</div>
+      <div style="margin-left: 900px; margin-top: -15px;">Designed and Developed by Web Team Aaryan University</div></div>
+   </body>
+</html>
